@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff6a6a;
+  }
+
+  .profile-snippet {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 80px;
+    padding: 10px;
+  }
+  
+  .profile-snippet-image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-snippet-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .profile-snippet-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-snippet-username {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-snippet-email,
+  .profile-snippet-phone {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  .button{
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    background-color: green;
+    color: white;
+    border: none;
+
+  }
